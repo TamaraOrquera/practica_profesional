@@ -1,0 +1,63 @@
+/* estilos index */
+body{
+    background-color: lavender;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+
+h1{
+    display: inline-block;
+    border: 5px solid darkorchid;
+    padding: 10px;
+    position: relative;
+    left: 37%
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+    color: mediumpurple;
+}
+
+ul{
+    margin-left: 120px;
+    list-style-type: square;
+}
+
+li{
+    padding: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links:hover{
+    background-color: rgb(166, 134, 188);
+    
+}
+.integrantes{
+    display: block;
+    margin-left: 100px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+a{
+    color: indigo;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+

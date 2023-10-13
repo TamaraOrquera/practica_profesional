@@ -1,0 +1,47 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: lavender;
+}
+ h1{
+    text-align: center;
+ }
+
+ .imagen{
+    display: inline-block;
+    margin-left: 100px;
+ }
+
+ .datos{
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 30px;
+ }
+
+ .titulo{
+    margin-bottom: 10px;
+    margin-left: 80px;
+    
+ }
+
+ .parrafos{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 40px;
+
+ }
+
+ li{
+    padding: 10px;
+ }
+
+ footer{
+    text-align: center;
+ }
+ .inicio{
+    color: mediumpurple;
+    font-size: 20px;
+ }
+ .a{
+    font-size: 20px;
+    color: indigo;
+ }

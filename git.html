@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Práctico 1</title>
+</head>
+<body>
+    <style>
+        .sentencias{
+            display: inline-block;
+            width: 45%;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        
+        h3{
+            text-align: center;
+            padding: 5px;
+            margin-top: 0;
+            background-color: blueviolet;
+            color: white;
+        }
+        .parrafo{
+            margin-top:10px;
+            margin-left: 3px;
+            color: black;
+        }
+    </style>
+    <p class="inicio">Índice<<a class="a" href="git.html">GIT: Sentencias más usadas</a><  <a class="a" href="index.html">Volver al inicio</a></p>
+
+    <h2>GIT: Sentencias más usadas</h2>
+
+    <div class="sentencias">
+        <h3>git init</h3>
+        <p class="parrafo">Inicia un nuevo repositorio Git en el directorio actual. Esto establece el seguimiento de versiones en ese 
+        directorio y crea un subdirectorio oculto .git para almacenar la información de control de versiones.</p>
+    </div>
+
+    <div class="sentencias">
+        <h3>git status</h3>
+        <p class="parrafo">Este comando se utiliza para verificar el estado actual de tu repositorio Git. Te muestra información sobre los 
+        cambios realizados en tus archivos, los archivos que están listos para ser confirmados (staged), los archivos
+        sin seguimiento y otros detalles sobre tu repositorio.</p>
+    </div>
+
+    <div class="sentencias">
+        <h3>git config --global user.name / git config --global user.email</h3>
+        <p class="parrafo">Este comando configura tu nombre de usuario y tu email a nivel global en Git. Se utiliza para establecer la identidad del 
+            autor de los commits en todos tus repositorios Git en tu sistema. Configurar el nombre de usuario y la dirección
+            de correo electrónico es importante, ya que esta información se incluye en cada commit que realizas, lo que 
+            permite atribuir los cambios a las personas adecuadas. </p>
+    </div>
+
+    <div class="sentencias">
+        <h3>git add</h3>
+        <p class="parrafo">El comando git add se utiliza en Git para preparar cambios en archivos específicos o en todo el directorio de trabajo 
+            para ser incluidos en el próximo commit. Después de usar git add, los archivos o cambios se colocan en la zona de 
+            preparación (staging area), y están listos para ser confirmados con el comando git commit. Esto permite 
+            organizar los cambios y realizar confirmaciones específicas en lugar de confirmar todos los cambios en el directorio
+             de trabajo de una vez.</p>
+    </div>
+    
+</body>
+</html>
